@@ -16,7 +16,7 @@ function sanictest(alarm) {
 	if (alarm === true) {
 	var confirmation = confirm("this is a test, stuff might go wrong, Continue?");
 	if (confirmation === true) {
-			document.write("<p>" + sanic.type + "=" + "<img src=" + sanic.img + " alt=" + sanic.text + "></img>""</p>")
+			document.write("<p>" + sanic.type + "=" + "<img src=" + sanic.img + " alt=" + sanic.text + "></img></p>")
 		};
 	};
 };
