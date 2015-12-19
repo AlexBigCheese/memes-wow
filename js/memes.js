@@ -1,12 +1,31 @@
 var meme = {file:"your mom",limit:5,};
+var numberofmeme = 0;
 
 function mememe (type , text , img) {
 	this.type = type;
 	this.text = text;
 	this.img = img;
 };
+function counting(mode , interval , variable) {
+	if (mode === "reset") {
+		this.variable = 0;
+	};
+	if (mode === "up") {
+		this.variable = this.variable + interval;
+	};
+	if (mode === "down") {
+		this.variable = this.variable - interval;
+	};
+};
+function memenamer () {
+	
+};
+function memewriter (I) {
+	
+}
 
 var sanic = new mememe("fast","Cum on step it up!","img/Sanic.png");
+var snoopdogg = new mememe("dank");
 
 function pooptest() {
 	
