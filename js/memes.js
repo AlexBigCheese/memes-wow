@@ -37,9 +37,9 @@ var sanic = new mememe("fast","Cum on step it up!","img/Sanic.png");
 var snoopdogg = new mememe("dank","smoke weed every day","img/snoopdogg.jpeg");
 
 function memewriter (I) {
-	var line = "<p>" + I.type + "= <img src=" + I.img + " alt=" + I.text + "></img></p>";
-	document.getElementById("memes").insertAdjacentHTML( "beforeend" , line);
-	var line;
+	line = "<p>" + I.type + "= <img src=" + I.img + " alt=" + I.text + "></img></p>";
+	document.getElementById("memes").insertAdjacentHTML( "beforeend" , line );
+
 	
 }
 
