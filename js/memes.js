@@ -24,8 +24,6 @@ function counting(mode , interval , variable , getin) {
 };
 
 
-var sanic = new mememe("fast","Cum on step it up!","img/Sanic.png");
-var snoopdogg = new mememe("dank","smoke weed every day","img/snoopdogg.jpeg");
 
 function memewriter (I) {
 	var p = document.createElement("P")
