@@ -35,9 +35,7 @@ function memewriter (I) {
 	p.appendChild(content);
 	p.appendChild(img);
 	div.appendChild(p);
-	img.setAttribute(src , I.img);
-	img.setAttribute(alt , I.text);
-	line = "<p>" + I.type + "=" + "<img src=" + I.img + " alt=" + I.text + "></img></p>";
+	line = "<img src=" + I.img + " alt=" + I.text + "></img>";
 	document.getElementById("meme").innerHTML += line;
 
 	
