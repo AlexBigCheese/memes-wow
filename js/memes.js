@@ -38,7 +38,7 @@ var snoopdogg = new mememe("dank","smoke weed every day","img/snoopdogg.jpeg");
 
 function memewriter (I) {
 	line = document.createTextNode("<p>" + I.type + "= <img src=" + I.img + " alt=" + I.text + "></img></p>");
-	document.getElementById("meme").appendChild(line);
+	document.getElementById("meme").innerHTML += line;
 
 	
 };
