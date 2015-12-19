@@ -24,35 +24,19 @@ function counting(mode , interval , variable , getin) {
 };
 
 
-
-function appendtoarray(array, variable) {
-	array.push(variable);
-};
-
-function xmlvarbranch(branch) {
-	
-};
-
 var sanic = new mememe("fast","Cum on step it up!","img/Sanic.png");
 var snoopdogg = new mememe("dank","smoke weed every day","img/snoopdogg.jpeg");
 
 function memewriter (I) {
-	line = "<p>" + I.type + "= <img src=" + I.img + " alt=" + I.text + "></img></p>";
+	var p = document.createElement("P")
+	var img = document.createElement("IMG")
+	var content = document.createTextNode(I.type + "=");
+	var div = document.getElementById("meme");
+	p.appendChild(content);
+	p.appendChild(img);
+	div.appendChild(p);
+	line = "<p>" + I.type + "=" + "<img src=" + I.img + " alt=" + I.text + "></img></p>";
 	document.getElementById("meme").innerHTML += line;
 
 	
 };
-
-function pooptest() {
-	
-};
-
-function sanictest(alarm) {
-	if (alarm === true) {
-	var confirmation = confirm("this is a test, stuff might go wrong, Continue?");
-	if (confirmation === true) {
-			document.write("<p>" + sanic.type + "=" + "<img src=" + sanic.img + " alt=" + sanic.text + "></img></p>")
-		};
-	};
-};
-
