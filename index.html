@@ -1,18 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+<link rel="stylesheet" type="text/css" href="css/memes.css" \>
 <script type="text/javascript" src="js/memes.js"></script>
 <script type="text/javascript" src="Memesgohere.js"></script>
+<script type="text/javascript" src="js/memeInNav.js"></script>
 </head>
 <body>
 <audio autoplay loop>
 <source src='audio/temvilleg.mp3'></source>
 </audio>
-<nav><span onclick="memewriter(sanic)">sanic</span>
- <span onclick="memewriter(snoopdogg)">snoop dogg</span>
- <span onclick="memewriter(dankmemes)">Dank memes</span>
- <span onclick="memewriter(pingas)">PINGAS</span>
+<nav id="nav" onload="memeSpan()" >
  </nav>
 <div id="meme">
 <p>Dank memes:</p>

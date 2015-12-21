@@ -1,12 +1,13 @@
-var meme = {file:"xml/memes.xml",limit:5,};
 var numberofmeme = 0;
 var memeray;
+var nav = document.getElementById("nav")
 
-function mememe (type , text , img) {
+function mememe (type , text , img , name) {
 	this.type = type;
 	this.text = text;
 	this.img = img;
 	this.number = counting("up" , 1 , numberofmeme , true);
+	this.name = name;
 };
 function counting(mode , interval , variable , getin) {
 	if (mode === "reset") {
@@ -23,8 +24,6 @@ function counting(mode , interval , variable , getin) {
 	};
 };
 
-
-
 function memewriter (I) {
 	var p = document.createElement("P")
 	var img = document.createElement("IMG")
@@ -39,3 +38,4 @@ function memewriter (I) {
 
 	
 };
+
