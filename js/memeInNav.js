@@ -13,5 +13,5 @@ function memeSpan () {
 		span.onclick = memewriter(dank);
 		span.appendChild("spantxt");
 		nav.appendChild("span");
-	}
+	};
 };
