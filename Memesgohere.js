@@ -3,4 +3,5 @@ var memes = {
 	'snoopdogg':new mememe("dank", "smoke weed every day", "img/snoopdogg.jpeg" , "Snoop Dogg"),
 	'dankmemes':new mememe("memes", ":O" , "img/Damk memes.jpg" , "Dank Memes"),
 	'pingas':new mememe("sexy", "PINGAS", "img/Pingas.png" , "PINGAS!"),
+	'shia':new mememe("encouragement", "Just Do It!", "placeholder", "Shia lebeuf"),
 }
